@@ -1,0 +1,19 @@
+// C++ program to check whether a character is a vowel or a consonant
+// using tolower()
+
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+  char ch;
+  cout<<"Enter a charecter:"<<endl;
+  cin>> ch;
+  ch = tolower(ch);
+  if(ch== 'a'  || ch== 'e' || ch== 'i' || ch== 'o' ){
+    cout<<"Vowel"<<endl;
+  }
+  else
+  {
+      cout<<"Consonent"<<endl;
+  }
+  return 0;
+}
