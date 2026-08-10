@@ -1,0 +1,17 @@
+// C++ program to check whether a character is a vowel or a consonant
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+  char ch;
+  cout<<"Enter a upper case character:"<<endl;
+  cin>> ch;
+  ch = ch + 32; // converting upper case to lower case
+  if(ch== 'a'  || ch== 'e' || ch== 'i' || ch== 'o' ){
+    cout<<"Vowel"<<endl;
+  }
+  else
+  {
+      cout<<"Consonent"<<endl;
+  }
+  return 0;
+}
