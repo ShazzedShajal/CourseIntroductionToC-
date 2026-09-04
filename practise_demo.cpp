@@ -3,7 +3,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{ int n,i;
+{ 
+    int n,i;
     cout<<"ENter value of N: ";
     cin>> n;
 
