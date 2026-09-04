@@ -1,0 +1,14 @@
+# Ignore all executable files
+*.exe
+
+# Ignore all output/build folders
+output/
+build/
+bin/
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore Visual Studio files
+.vs/
