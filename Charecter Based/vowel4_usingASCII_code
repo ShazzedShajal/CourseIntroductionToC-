@@ -1,4 +1,4 @@
-// C++ program to check whether a character is a vowel or a consonant
+// a program to check whether a character is a vowel or a consonant using ASCII code
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
