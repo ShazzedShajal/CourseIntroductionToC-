@@ -2,22 +2,12 @@
 using namespace std;
 int main()
 {
- char colour='R';
- cin>>colour; 
- colour = toupper(colour);
- switch (colour)
+ for (int row=5; row>=1; row--)
  {
-   case 'R':
-  cout<<"Stop"<<endl;
-   break;
-   case 'Y':
-  cout<<"GET READY"<<endl;
-   break;
-   case 'G':
-  cout<<"GO"<<endl;
-   break;
-   default:
-    cout<<"Invalid Signal"<<endl;
-}
+  for (int col=1; col<=row; col++){
+    cout<<"*";
+  }
+  cout<<endl;
+ }
 return 0;
 }
