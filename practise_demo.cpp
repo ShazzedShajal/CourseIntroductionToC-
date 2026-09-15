@@ -1,13 +1,22 @@
+//Print Array in Reverse
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
- for (int row=5; row>=1; row--)
- {
-  for (int col=1; col<=row; col++){
-    cout<<"*";
+  int n;
+  cout<<"Enter the size of array: ";
+  cin>>n;
+  int a[n];
+  cout<<"Enter the elements of array: ";
+  for(int i=0;i<n;i++)
+  {
+    cin>>a[i];
   }
-  cout<<endl;
- }
+  cout<<"The elements of array in reverse order: ";
+  for(int i=n-1;i>=0;i--)
+  {
+    cout<<a[i]<<" ";
+  }
 return 0;
 }
