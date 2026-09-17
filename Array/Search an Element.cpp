@@ -40,7 +40,7 @@ int main()
             }
         }
     
-        if(found)
+        if(found==true)
             cout<<"Element found"<<endl;
         else
             cout<<"Element not found"<<endl;

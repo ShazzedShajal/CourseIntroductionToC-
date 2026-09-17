@@ -21,6 +21,5 @@ int main()
     }
     cout<<"\n The summation is: "<<sum<<endl;
 
-
     return 0;
 }
