@@ -1,21 +1,19 @@
-// C++ program to swap two numbers using a temporary variable
 #include <iostream>
 using namespace std;
+
+// user define function
+ void summation(int x ,int y ){
+     int sum = x + y;
+     cout<<"Sum = "<<sum<<endl;
+ }
+ 
 int main()
 {
-    int a,b,temp;
-    cin>>a>>b;
+    summation(10,20);
+    summation(100,555);
+    summation(10,-4);
+    summation(0,0);
+    summation(777,-111);
 
-    cout<<"before swapping: a= "<<a<<" , b= "<<b<<endl;
-    
-    temp = a;
-    a = b;
-    b = temp;
-    
-    //swap(a,b);
-
-    cout<<"After swapping: a= "<<a<<" , b= "<<b<<endl;
-
-
-return 0;
+    return 0;
 }
