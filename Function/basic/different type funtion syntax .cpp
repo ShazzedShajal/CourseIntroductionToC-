@@ -16,14 +16,16 @@ int main()
     int number = 100;
     bool pass;
     pass = Result(number);
-    if(pass == true) cout<<"You have passed the exam."<<endl;
+    if(pass == true) cout<<"You have passed in the exam."<<endl;
     else cout<<"Sorry, you have failed in the exam."<<endl;
     return 0;
 }
 
+// all Function definitions
+
 void greeting()
 {
-    cout << "welcome to function" << endl;
+    cout << "Welcome to Function lecture" << endl;
 }
 
 void PrintName(string name)
